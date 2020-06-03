@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        ["@babel/plugin-transform-typescript", { "allowNamespaces": true }],
+		["const-enum",{"transform": "constObject"}],
+		"transform-typescript"
+    ],
+	"presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 Chrome versions"]
+      }
+    }]
+  ]
+}
