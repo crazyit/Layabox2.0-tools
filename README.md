@@ -8,3 +8,5 @@ Layabox2.0 Parcel 极速打包配置
 3.第三步 在项目的根目录 直接运行脚本 parcel  ./src/* --no-hmr --out-dir bin/dist
   运行效果如下：Server running at http://localhost:1234
   这样子就成功了。没修改一次代码，都会自动增量编译，体验非常爽。当然也非常感谢parcel作者，开发了那么好的一个工具。
+  
+  如果大家在使用过程中，有什么问题，欢迎给我提issue。
